@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roda Muebles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('mueble.PNG'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            color: #f2f3f3; /* Color del texto */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para hacer el texto más legible */
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(25, 6, 6, 0.9); /* Fondo semi-transparente para hacer el contenido más legible */
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roda Muebles</h1>
+    </header>
+
+    <main>
+        <h2>Lista de Precios</h2>
+        <ul>
+            <li>Sofá - $500</li>
+            <li>Mesa de Centro - $150</li>
+            <li>Silla - $50</li>
+            <!-- Agrega más elementos según sea necesario -->
+        </ul>
+
+        <h2>Buscar Artículo</h2>
+        <form>
+            <input type="text" placeholder="Ingrese el nombre del artículo">
+            <button type="submit">Buscar</button>
+        </form>
+    </main>
+
+</body>
+</html>
