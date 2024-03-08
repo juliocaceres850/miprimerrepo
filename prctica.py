@@ -1,0 +1,2 @@
+nomre = "julio"
+print (nombre)
